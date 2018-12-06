@@ -1,0 +1,96 @@
+.society-header{
+  width: 71%;
+  background-color: #fefefe  ;
+  margin-left: 14%;
+  padding-top:70px;
+  
+}
+  .Dashboard-Society {
+      width: 172px;
+      height: 16px;
+      font-size: 13px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 3.13;
+      letter-spacing: 0.6px;
+      text-align: left;
+      color: #949494;
+    }
+    
+    .Dashboard-Society .text-style-1 {
+      font-weight: normal;
+      color: #263238;
+    }
+    .Society {
+      width: 107px;
+      height: 30px;
+      font-size: 26px;
+      font-weight: 450;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.67;
+      letter-spacing: 0.6px;
+      text-align: left;
+      color: #263238;
+    }
+    div ul{
+      list-style-type: none;
+    }
+    .example-form {
+      /* min-width: 65px;
+      max-width: 175px;
+      width: 100%; */
+      margin-top:-11px;
+    }
+    
+    .example-full-width {
+      width: 200px;
+      margin-right:10px;
+    }
+   .search-by{
+     width:120px
+   }
+   
+   .button{
+    border-radius: 23.5px;
+    font-size: 14px;
+    font-weight: 400;
+    height: 42px;
+    /* box-shadow: 0px 4px 15px 0 rgba(247, 158, 4, 0.21); */
+  
+    color:white;
+    margin-bottom: 10px;
+   }
+   .button-upolad-excell{
+    width: 181px;
+   
+    background-color: #04b0f7;
+    margin-left: 10px;
+    
+   }
+   .button-upolad-excell i{
+    margin-right:10px;
+   }
+   .button-add-society i{
+    margin-right:10px
+   }
+   
+   .button-add-society{
+    width: 146px;
+    
+    background-color: #03a456;
+    margin-left: 10px;
+  }
+
+  img#filter-icon{
+      width:13px;
+      height: 14px;
+      margin-right: 14px;
+  }
+  .button-filter{
+    background-color:#f79e04;
+    width: 120px;
+    margin-left: 20px;
+  }
+   

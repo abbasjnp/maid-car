@@ -1,0 +1,42 @@
+<div class="container-fluid  ">
+    <div class="row society-header ">
+        <div class="col-sm-5">
+            <p class="Dashboard-Society">Dashboard / <span class="text-style-1">Residents</span></p>
+            <p class="Society">Residents</p>
+        </div>
+        <div class="col-sm-7 example-form">
+            <!-- <ul>
+            <li><i class="fa fa-search" style="color:darkgrey"></i><span>Search...</span></li>
+            <li></li>
+        </ul> -->
+            <form >
+                <table>
+                    <tr>
+                        <td>
+                            <mat-form-field class="example-full-width">
+                                <!-- <div>
+                                <span class="fa fa-search"></span>
+                                <input matInput placeholder="Search...">
+                                </div> -->
+                               
+                                <input matInput placeholder="Search...">
+                            </mat-form-field>
+                        </td>
+                        <td>
+                            <mat-form-field class="search-by">
+                                <mat-select placeholder="Search by">
+                                    <mat-option *ngFor="let food of foods" [value]="food.name">
+                                        {{food.name}}
+                                    </mat-option>
+                                </mat-select>
+                            </mat-form-field>
+                        </td>
+                        <td>
+                            <button type="button" class=" button button-add-society"><i class="fa fa-plus"></i>Filter</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</div>
