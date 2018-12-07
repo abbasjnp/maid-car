@@ -4,6 +4,7 @@ import { AdminService } from '../admin.service';
 import{MatPaginator,MatTableDataSource} from '@angular/material';
 import{Society} from './../society.interface'
 import { compileNgModule } from '@angular/core/src/render3/jit/module';
+import {Observable} from 'rxjs'
 
 export interface Food {
     id: string;
@@ -18,7 +19,7 @@ export interface Food {
 
 export class SocietyComponent{
     
-    public society =[];
+    public society=[];
     public dataSource;
     // public data;
     public soc;
@@ -27,11 +28,11 @@ export class SocietyComponent{
     constructor(private adminService:AdminService){  
         this.adminService.getSociety()
                      .subscribe(data =>{
-           // console.log(data);
                           this.society=data;
-          //  console.log(this.society);
+           console.log(this.society);
             //this.dataSource=this.society;
                          this.dataSource = new MatTableDataSource<Society>(this.society);
+                         //console.log(this.dataSource)
                          this.dataSource.paginator = this.paginator; 
         
          //  console.log(this.soc);
